@@ -1,0 +1,21 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: database
+  pool: 5
+  username: user
+  password: password
+  host: 127.0.0.1
+  port: 3306
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: database
+  pool: 10
+  username: user
+  password: password
+  host: 127.0.0.1
+  port: 3306

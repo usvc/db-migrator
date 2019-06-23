@@ -1,0 +1,11 @@
+version: "3.5"
+services:
+  database:
+    image: mysql:5.7.23
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+      MYSQL_DATABASE: database
+    ports:
+      - 3306:3306
